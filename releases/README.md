@@ -38,7 +38,7 @@ OpenMW_Free_Asset_Library_v1.0.0/
 - v1.0.0 authority and character-reference workbooks;
 - the disclosed `_temporary_orphan` presentation set.
 
-The 400 temporary orphan physical files are retained intentionally so example NPC presentation remains visible. They must remain in their marked paths and remain excluded from commercial-safe claims.
+The 780 temporary orphan physical files are retained intentionally so example NPC presentation remains visible. They must remain in their marked paths and remain excluded from commercial-safe claims.
 
 ## Excluded material
 
