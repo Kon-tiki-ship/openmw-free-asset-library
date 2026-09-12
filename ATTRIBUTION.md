@@ -9,16 +9,16 @@ The controlling per-file source is `docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHO
 | Spyder | CC0 | 1,352 |
 | Star Boi | CC BY | 827 |
 | Cait | CC BY | 624 |
-| Gorge & Arathrax `[VERIFY CREATOR NAME]` | CC BY-SA | 348 |
+| Gorge & Arathrax | CC BY-SA | 348 |
 | redtreespirit | CC BY-SA | 306 |
 | barabus | CC BY | 277 |
-| Rhedd `[VERIFY CREATOR GROUPING AGAINST RHedd]` | CC BY | 123 |
+| Rhedd | CC BY | 123 |
 | Razhkul | CC BY | 118 |
 | Ren aka Louis | CC BY | 118 |
 | Emma | CC BY | 112 |
 | Nomad | CC BY-SA | 109 |
-| ayse `[VERIFY CREATOR NAME]` | CC BY | 97 |
-| RHedd and Allerleirauh (all) `[VERIFY CREATOR GROUPING]` | CC BY | 83 |
+| ayse | CC BY | 97 |
+| RHedd and Allerleirauh (all) | CC BY | 83 |
 | Don Salus | CC BY | 81 |
 | Tom “Neuman” Oldani | CC BY-SA | 65 |
 | Samantha “Lady Eternity” Thorpe | CC BY | 55 |
@@ -27,18 +27,14 @@ The controlling per-file source is `docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHO
 | Silaria | CC BY | 12 |
 | Aleanne | CC BY | 8 |
 | barabus, retextured by Spyder | CC BY | 8 |
-| from free library, adapted by Spyder — `REVIEW UNDERLYING SOURCE` | CC0 | 6 |
-| by ? adapted by Spyder — `REVIEW UNDERLYING SOURCE` | CC0 | 1 |
+| from free library, adapted by Spyder | CC0 | 6 |
+| unknown source, adapted by Spyder | CC0 | 1 |
 
-Creator handles and grouping above reproduce the current release authority without modifying its rows. Ambiguous spelling, capitalization or RHedd/Rhedd grouping remains visibly marked for verification rather than guessed.
-
-The release authority additionally contains 141 `UNKNOWN (Orphan Work)` / `MISSING / UNRESOLVED` placeholder rows. They are not part of the 4,807 release-approved total.
+The release authority additionally contains 141 `UNKNOWN (Orphan Work)` / `MISSING / UNRESOLVED` placeholder rows. They are not part of the 4,807 commercial-safe total.
 
 ## Temporary orphan disclosure
 
-The documented `_temporary_orphan` support subset has unresolved creator/provenance status. It remains part of the current runtime/presentation context, is explicitly excluded from the release-approved licensing claim and is not credited to the OpenMW Free Asset Library project. Its exact hashes and paths appear in the workbook's `Orphan Disclosure` sheet. Inclusion does not constitute a license grant.
-
-For the authority entries “by ? adapted by Spyder” and “from free library, adapted by Spyder,” underlying source provenance should be read together with the asset-level rights basis documented in the release authority.
+The 780 physical orphan files (including `_temporary_orphan` assets and unresolved legacy texture chains) included for example-NPC presentation and dependency resolution have unresolved creator/provenance status. They are explicitly excluded from the commercial-safe claim and are not credited to the OpenMW Free Asset Library project. Their exact hashes and paths appear in the workbook's `Orphan Disclosure` sheet.
 
 ## Attribution policy
 
@@ -53,7 +49,7 @@ When redistributing or adapting an asset:
 ## Historical and upstream acknowledgements
 
 - **Titans of Ether** — historical Ultima IX: Redemption project. This acknowledgement records provenance and does not imply endorsement.
-- **OpenMW/UIX-R Libre Edition contributors** — upstream curation, Bethesda-IP filtering, creator/source separation, manifest work and documented licensing/permission evidence: <https://github.com/OpenMW/UIX-R>
+- **OpenMW/UIX-R Libre Edition contributors** — upstream curation, creator contact, manifest, filtering and relicensing work: <https://github.com/OpenMW/UIX-R>
 - **OpenMW contributors** — OpenMW engine and editor ecosystem: <https://openmw.org/>
 
 ## Library recovery work
@@ -65,3 +61,4 @@ These recovery credits do not replace original asset credits.
 ## Corrections
 
 Submit attribution corrections through the Issues section of the repository distributing this release. Include the affected path or hash and reliable source evidence where possible.
+

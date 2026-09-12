@@ -1,14 +1,10 @@
 # OpenMW Free Asset Library
 
-> **Release:** v1.0.0 — 12 September 2026
-> **Status:** Initial public release
+> **Release:** v1.0.0 — 12 September 2026  
+> **Status:** Initial public release  
 > **Target:** OpenMW 0.51.0
 
-**GitHub repository:** Documentation and authority workbooks only. Download the full addon and asset package from GitHub Releases; cloning this repository does not install the assets.
-
-OpenMW Free Asset Library is a curated collection of reusable fantasy assets prepared for direct use in OpenMW. The project repairs broken dependencies, restores missing record links, normalizes public-facing names, and preserves per-file creator and license provenance.
-
-The library provides native NIF, KF, DDS/TGA and OMWADDON resources together with three limited inspection/showcase environments where compatible assets can be examined in context.
+OpenMW Free Asset Library is an independent community resource containing repaired, normalized and provenance-documented fantasy assets for OpenMW. It provides meshes, textures, animations, reusable OpenMW records and three limited showcase regions for inspecting the library in-engine.
 
 This is not an official OpenMW project and is not endorsed by Bethesda Softworks, ZeniMax Media, Electronic Arts, Origin Systems or the former Ultima IX: Redemption team.
 
@@ -18,24 +14,24 @@ This is not an official OpenMW project and is not endorsed by Bethesda Softworks
 - `meshes/` — NIF models and KF animations.
 - `textures/`, `icons/`, `sound/` — supporting assets.
 - `docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHORITY_v1.0.0.xlsx` — controlling asset, record, licensing and release authority.
-- `docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0_PUBLIC_CLEANED.xlsx` — public technical reference for possible modular character-resource mapping.
+- `docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0.xlsx` — character-resource implementation reference.
 - `LICENSES.md`, `ATTRIBUTION.md` and `docs/PROVENANCE_NOTES.md` — release policy and provenance documentation.
 - `provenance/` — source-history and upstream-manifest notes.
 
-The release authority identifies **4,807 files approved for public release under documented CC0, CC BY, or CC BY-SA licensing evidence**. The addon exposes **3,003 object records** and retains **three showcase regions**.
+The release authority identifies **4,807 commercial-safe authority files**: 1,359 CC0, 2,588 CC BY and 860 CC BY-SA rows.
 
 ## Temporary orphan disclosure
 
-The release also contains a documented orphan/support subset whose redistribution provenance remains unresolved. These files are retained for the current runtime/presentation context and are explicitly excluded from the release-approved licensing claim. Their inclusion does not constitute a license grant.
+The package also retains **400 physical files with unresolved/orphan provenance** under `_temporary_orphan` paths. They support clothed example-NPC presentation and are deliberately kept visible for community provenance/replacement work.
 
 These files:
 
 - are marked `ORPHAN / UNKNOWN` and `TEMPORARY REVIEW ONLY`;
-- are excluded from the 4,807-file release-approved licensing claim;
-- must not be represented as release-cleared reusable assets;
+- are excluded from the 4,807-file commercial-safe claim;
+- must not be represented as licensed public art;
 - are listed individually with path and SHA-256 in the `Orphan Disclosure` sheet of the release-authority workbook.
 
-Users should consult the release authority before independently reusing these files.
+The character workbook also marks 113 affected wearable records as development/presentation-only. The 141 `PLACEHOLDER_ONLY` authority rows are a separate reporting scope and must not be added to the 400 physical-file count.
 
 ## Historical source and upstream authority
 
@@ -44,33 +40,35 @@ Part of the recovered source material originated in the released archive of Ulti
 - Historical project reference: <https://ultima9.ultimacodex.com/ultima-ix-redemption/>
 - Primary upstream manifest and licensing reference: <https://github.com/OpenMW/UIX-R>
 
-OpenMW Free Asset Library is not a continuation, remake or game release of Ultima IX: Redemption. Public-facing world names and selected library record names were normalized, while legacy identifiers were retained where required for dependency safety or provenance tracing.
+OpenMW Free Asset Library is not a continuation, remake or game release of Ultima IX: Redemption. Public-facing world and record names were normalized, while legacy identifiers remain only where required for dependency safety or provenance tracing.
 
 ## Recovery and normalization work
 
 The v1.0.0 package incorporates:
 
-- dependency-aware removal of records that were both unnecessary for the retained library/showcase content and unsuitable for the public release;
+- dependency-aware removal of unused unsafe records;
 - repair and normalization of mesh and texture paths;
 - reconstruction of missing asset-to-record relationships;
-- normalization of public-facing world names and selected library record names;
+- public record-ID and display-name normalization;
 - creator/license collation and asset-level authority tracking;
 - preservation of reusable fauna, character, architecture, prop and equipment families;
 - cleanup of empty and irrelevant world content;
 - retention and repair of three showcase regions;
-- explicit separation of release-approved assets from the documented orphan/support subset.
+- explicit separation of commercial-safe assets from temporary orphan presentation assets;
+- a current CELL inventory covering 275 CELLs and 97,740 placements.
 
 ## Runtime requirements
 
-- OpenMW 0.51.0 is the documented test target. Newer versions have not been separately verified in this documentation.
+- OpenMW 0.51.0 or newer is recommended.
 - A legally installed copy of Morrowind is required for the showcase addon because it uses the standard Morrowind master/runtime environment.
 - Load `Morrowind.esm` before `OpenMW_Free_Library.omwaddon`.
+- Tribunal and Bloodmoon archives may remain registered in a normal OpenMW installation, but the library addon is loaded after `Morrowind.esm`.
 
 The physical library may be inspected independently, but use of individual assets remains subject to their per-file licenses.
 
 ## Installation
 
-1. Download and extract the full ZIP from GitHub Releases.
+1. Download or clone the release.
 2. Add the directory containing `OpenMW_Free_Library.omwaddon`, `meshes`, `textures`, `icons` and `sound` as an OpenMW data directory.
 3. Enable `Morrowind.esm`.
 4. Enable `OpenMW_Free_Library.omwaddon` after it.
@@ -79,7 +77,6 @@ The physical library may be inspected independently, but use of individual asset
 Example `openmw.cfg` entries:
 
 ```ini
-data="C:\path\to\Morrowind\Data Files"
 data="C:\path\to\OpenMW_Free_Library"
 content=Morrowind.esm
 content=OpenMW_Free_Library.omwaddon
@@ -99,19 +96,19 @@ In the OpenMW console, `coe 108,96`, `coe 102,97` and `coe 94,100` can be used t
 
 ## Character reference workbook
 
-`docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0_PUBLIC_CLEANED.xlsx` is a technical implementation reference showing how the existing OpenMW Free Asset Library can support a modular Human / Elf / Orc character interface. It is not a shipped character creator and is not a production roadmap.
+`OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0.xlsx` inventories body presets, skin palettes, heads, hair and wearables that may support a later Human / Elf / Orc character interface. It is a technical reference, not a shipped character creator or roadmap.
 
 ## Licensing
 
 The package does not have one blanket asset license. Each third-party asset retains the creator and license recorded in the release authority. Before reuse, locate the asset in the workbook and follow its CC0, CC BY, CC BY-SA or temporary-review status.
 
-Project-authored documentation and metadata are licensed under CC BY 4.0 unless otherwise stated. This license does not replace or override third-party asset licenses.
+Project-authored documentation and generated metadata are released under CC BY 4.0. This grant does not override any third-party asset license.
 
 See [LICENSES.md](LICENSES.md) and [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ## Known limitations
 
-- The documented orphan/support subset remains part of the current runtime/presentation context and outside the release-approved licensing claim.
+- The 400 temporary orphan files are included only for example-NPC presentation and provenance/replacement work.
 - The character-race workbook describes possible compatibility routes; those routes are not implemented as a runtime menu.
 - Some internal legacy IDs remain where renaming would break references.
 - Cross-engine compatibility is not guaranteed; NIF/KF assets may require conversion.
@@ -124,9 +121,10 @@ Technical, licensing and attribution corrections are welcome through the Issues 
 
 - Original artists and modders listed in `ATTRIBUTION.md` and the release authority.
 - Titans of Ether, for the historical Ultima IX: Redemption project.
-- OpenMW/UIX-R Libre Edition contributors, for upstream manifest, Bethesda-IP filtering and documented licensing/permission work.
+- OpenMW/UIX-R Libre Edition contributors, for upstream curation, manifest and relicensing work.
 - OpenMW contributors, for the engine and editor ecosystem.
 
 ## Disclaimer
 
 OpenMW is a separate open-source project. Ultima, Morrowind, The Elder Scrolls, Bethesda, ZeniMax, Electronic Arts, Origin Systems and related names belong to their respective owners. They are referenced only for compatibility, provenance and historical documentation.
+

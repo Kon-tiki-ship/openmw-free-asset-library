@@ -1,12 +1,12 @@
 # Release Package Layout — v1.0.0
 
-The GitHub repository contains documentation and authority workbooks only. The full loose-file OpenMW data directory is distributed as the GitHub Release ZIP; cloning the repository alone does not install the addon or assets.
+The Git repository is itself a usable loose-file OpenMW data directory. A matching GitHub Release archive may be offered for users who do not clone repositories.
 
 ## Release archive
 
 Recommended filename:
 
-`OpenMW_Free_Asset_Library_v1.0.0.zip`
+`OpenMW_Free_Asset_Library_v1.0.0.7z`
 
 Expected contents:
 
@@ -19,7 +19,7 @@ OpenMW_Free_Asset_Library_v1.0.0/
 ├─ sound/
 ├─ docs/
 │  ├─ OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHORITY_v1.0.0.xlsx
-│  ├─ OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0_PUBLIC_CLEANED.xlsx
+│  ├─ OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0.xlsx
 │  └─ PROVENANCE_NOTES.md
 ├─ provenance/
 ├─ README.md
@@ -38,7 +38,7 @@ OpenMW_Free_Asset_Library_v1.0.0/
 - v1.0.0 authority and character-reference workbooks;
 - the disclosed `_temporary_orphan` presentation set.
 
-The documented orphan/support subset is retained intentionally as part of the current runtime/presentation context. Its files remain in their marked paths and are explicitly excluded from the release-approved licensing claim. Inclusion does not constitute a license grant; users should consult the release authority before independently reusing these files.
+The 400 temporary orphan physical files are retained intentionally so example NPC presentation remains visible. They must remain in their marked paths and remain excluded from commercial-safe claims.
 
 ## Excluded material
 
@@ -46,7 +46,7 @@ The documented orphan/support subset is retained intentionally as part of the cu
 - old PASS/migration addons;
 - scratch spreadsheets and QA CSVs;
 - extraction folders, editor caches, thumbnails and local logs;
-- unresolved assets not documented by the release authority;
+- undisclosed unresolved assets;
 - Bethesda-owned files copied from a game installation;
 - duplicate source copies not required by the release.
 
@@ -54,10 +54,11 @@ The documented orphan/support subset is retained intentionally as part of the cu
 
 v1.0.0 uses loose files so users can inspect individual assets, trace paths, reuse cleared files and diagnose OpenMW behavior. A BSA package is not required for this release.
 
-The documentation repository `.gitattributes` marks workbooks as binary. Game binaries are distributed in the Release ZIP rather than tracked in Git.
+The repository `.gitattributes` marks binary game and workbook formats as binary so Git does not apply text transformations.
 
 ## Validation
 
-The documented local test target is OpenMW 0.51.0. The addon loads after `Morrowind.esm`; the three showcase regions were observed open and navigable, and the object record catalog is visible in OpenMW-CS. This documents the observed profile rather than certifying every possible installation.
+The release was tested with OpenMW 0.51.0. The addon loads after `Morrowind.esm`; Sunleaf Isle, Harborwatch Isle and Greenwarden Isle open and are navigable, and the object record catalog is visible in OpenMW-CS.
 
 Do not validate with an older UIXRedemption/PASS data directory registered, because it can mask package files.
+

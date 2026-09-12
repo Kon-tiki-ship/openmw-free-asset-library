@@ -26,10 +26,11 @@
 
 ## Project-local authority
 
-- Release authority: `../docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHORITY_v1.0.0.xlsx` (unchanged source workbook in the parent release data directory)
-- Character reference: `docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0_PUBLIC_CLEANED.xlsx`
-- Licensing policy: `LICENSES.md`
-- Attribution: `ATTRIBUTION.md`
+- Release authority: `../docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHORITY_v1.0.0.xlsx`
+- Character reference: `../docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0.xlsx`
+- Licensing policy: `../LICENSES.md`
+- Attribution: `../ATTRIBUTION.md`
 - Source history: `README_SOURCE_HISTORY.md`
 
 Use the Issues section of the repository distributing this release for technical, attribution and provenance corrections.
+

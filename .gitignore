@@ -1,22 +1,12 @@
-# Documentation allowlist. Full game files belong in GitHub Releases only.
-/*
-!/.gitignore
-!/.gitattributes
-!/README.md
-!/LICENSES.md
-!/ATTRIBUTION.md
-!/VERSION.txt
-!/CHECKSUMS.sha256
-!/docs/
-/docs/*
-!docs/PROVENANCE_NOTES.md
-!docs/OPENMW_FREE_ASSET_LIBRARY_RELEASE_AUTHORITY_v1.0.0.xlsx
-!docs/OPENMW_FREE_LIBRARY_CHARACTER_RACE_MAP_REFERENCE_v1.0.0_PUBLIC_CLEANED.xlsx
-!/provenance/
-/provenance/*
-!provenance/README_SOURCE_HISTORY.md
-!provenance/manifest-reference-notes.md
-!provenance/links.md
-!/releases/
-/releases/*
-!releases/README.md
+# Local/editor noise
+*.tmp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+
+# Do not accidentally commit full release archives
+*.7z
+*.zip
+*.tar
+*.tar.gz

@@ -1,1 +1,8 @@
 *.xlsx binary
+*.omwaddon binary
+*.nif binary
+*.kf binary
+*.dds binary
+*.tga binary
+*.bmp binary
+*.wav binary

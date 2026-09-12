@@ -10,7 +10,8 @@ OpenMW_Free_Library.omwaddon SHA-256:
 Release authority workbook SHA-256:
 c75811a9f98197b010ed2a55d45e6293e51c6ea7cc7f74cd371bc022cf96b1f2
 
-Public character reference workbook SHA-256:
-86700e615933d779d22e6dd221246fbd9e56b90d3579cfd70a7623ea4ab3b293
+Character reference workbook SHA-256:
+ea3b172d845c8869442f40b5e986f318acdfd419d19a1e42a32e213018ea2d48
 
-The release authority identifies 4,807 files approved for public release under documented CC0, CC BY, or CC BY-SA licensing evidence. The full Release ZIP also retains a separately disclosed 400-file temporary orphan presentation set outside that licensing claim.
+The release contains 4,807 commercial-safe authority files and a separately disclosed 400-file temporary orphan presentation set.
+
