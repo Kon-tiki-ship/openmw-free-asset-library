@@ -1,0 +1,16 @@
+OpenMW Free Asset Library
+Version: 1.0.0
+Release date: 2026-09-12
+OpenMW tested version: 0.51.0
+Release status: Initial public release
+
+OpenMW_Free_Library.omwaddon SHA-256:
+4bfb2614373a5541e94f48caccfb760b6cf9613489554132c98ac17976af7a87
+
+Release authority workbook SHA-256:
+c75811a9f98197b010ed2a55d45e6293e51c6ea7cc7f74cd371bc022cf96b1f2
+
+Public character reference workbook SHA-256:
+86700e615933d779d22e6dd221246fbd9e56b90d3579cfd70a7623ea4ab3b293
+
+The release authority identifies 4,807 files approved for public release under documented CC0, CC BY, or CC BY-SA licensing evidence. The full Release ZIP also retains a separately disclosed 400-file temporary orphan presentation set outside that licensing claim.
