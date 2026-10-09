@@ -1,12 +1,42 @@
-# Local/editor noise
-*.tmp
-*.bak
-*.log
-.DS_Store
-Thumbs.db
+# Only the public release layout may be tracked.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSES.md
+!/ATTRIBUTION.md
+!/LICENSES/
+!/LICENSES/**
+!/VERSION.txt
+!/CHECKSUMS.sha256
+!/docs/
+/docs/*
+!/docs/OPENMW_FREE_ASSET_LIBRARY_BASE_CATALOG_v2.xlsx
+!/docs/OPENMW_FREE_ASSET_LIBRARY_ASSETS_CATALOG_v2.xlsx
+!/docs/*.md
+!/provenance/
+!/provenance/**
+!/releases/
+/releases/*
+!/releases/README.md
 
-# Do not accidentally commit full release archives
+# Never track private quarantine, backups or editor/runtime files.
+**/quarantine/**
+**/karantina/**
+**/_temporary_orphan/**
+**/backup/**
+**/backups/**
+**/review_only/**
+**/.cs-profile/**
+**/userdata/**
+**/release-docs-cleaned/**
+*.project
+*.bak
+*.tmp
+*.log
 *.7z
 *.zip
 *.tar
 *.tar.gz
+.DS_Store
+Thumbs.db

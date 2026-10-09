@@ -1,8 +1,21 @@
-*.xlsx binary
+* text=auto
+*.omwgame binary
 *.omwaddon binary
+*.xlsx binary
 *.nif binary
+*.NIF binary
 *.kf binary
 *.dds binary
 *.tga binary
 *.bmp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
 *.wav binary
+*.mp3 binary
+*.ogg binary
+*.dae text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.sha256 text eol=lf

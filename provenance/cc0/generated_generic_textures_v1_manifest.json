@@ -1,0 +1,351 @@
+{
+  "creator": "Furkan Yaşar",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "provenance": "AI-assisted image_gen; no Bethesda image supplied as input; mechanical DDS/mipmap export",
+  "date": "2026-10-07",
+  "scope": "Only these generated textures, not models, records or quarantined originals",
+  "files": [
+    {
+      "target": "textures/CLOT/tx_a_dreugh_c_gen_v1.dds",
+      "sha256": "284247877c7f62400cc7b999438448d61001d742fca1c88c9ced9c58607b1809",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/CLOT/tx_a_dwemer_01_gen_v1.dds",
+      "sha256": "98a24f78f4ef94c7b221f8844358d819726efc0ea8167c1c4f758ed2bdc2ac11",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/BODY/tx_a_orcish_boots01_gen_v1.dds",
+      "sha256": "1df3dee828cb788a307a84dd2321f1803c3490131b2c1a53b58b05e159782e79",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/SHARED/tx_a_orcish_upperarm_gen_v1.dds",
+      "sha256": "17d8ad0215aae8cce73d000abef7a931c181f05038d2d0ae422b233936badc7d",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/SHARED/tx_a_silver_cuir_duke01_gen_v1.dds",
+      "sha256": "2cbd437cdda3fe5de42755f0f56bcdd7b4b93a499d9121c7c064a2d7b13e8a35",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/SHARED/tx_a_studdedleather_cuirass00_gen_v1.dds",
+      "sha256": "44f5584b567d45550c9fc7c65b5f5a503206d3c9f3c2b7813ad1c62971ae612b",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/WEAP/tx_alpha_firehrt_gen_v1.dds",
+      "sha256": "2dc8d764ea447c9d7e82ad600cbea9ce69ecf425d202975cc36a783390940a80",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/tx_firespark00_gen_v1.dds",
+      "sha256": "ab5ee7ae426cd1a9908fc477e443b107af8059760d0d62e39202aa2d100ca1d6",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/ACTI/tx_guarskin_dark_01_gen_v1.dds",
+      "sha256": "90dace46b8fe1772a9b9fed031d6a7013aa232b787c6e46f9e088657f58878ae",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/SHARED/tx_sand_01_gen_v1.dds",
+      "sha256": "405685a275d19cd144f7acad28ee8e51212567f57c1972d0e68a59c6664b19de",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/WEAP/tx_smoke_01_gen_v1.dds",
+      "sha256": "b11c201f410312c846970e91e643debff7cd82b7e3f4246aee3ff886d180a12e",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/LIGH/tx_smokealpha00a_gen_v1.dds",
+      "sha256": "410037668461f27f16da2466a52bd81a7f0ed41f1e9582b5c728b93fb2cb5051",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/CLOT/tx_w_arrow_gen_v1.dds",
+      "sha256": "56d48e4f71f507e479631b90e7dd994defd6f5e6a8b4e091d99975f858ecda5e",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/STAT/tx_wood_ceilingpanel_02_gen_v1.dds",
+      "sha256": "87e6dbd2f4a5b7d5329bdcc0b845836654af3ef432886b1f92f8ac27e9f5c8af",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/STAT/tx_wood_interior_plain_gen_v1.dds",
+      "sha256": "92655573170d694b005e5e7df8332b7b5f212323d0360e26570f61df837fb272",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/STAT/tx_wood_oldwood_gen_v1.dds",
+      "sha256": "ada727462f2ee70b81bb688f0d65b052663d77eec0bfc23633621e83e9e8775c",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/STAT/tx_woodfloor_brown_gen_v1.dds",
+      "sha256": "a043e12fcc373fd75ffc187fb7886dc278e4d78d5170e024081ff26000ed9413",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/ARMO/vfx_bluecloud_gen_v1.dds",
+      "sha256": "57bc80456f2c8793b177954b38a984096d7f6aed578f1faa763fedab671d4d3f",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_blueglow_gen_v1.dds",
+      "sha256": "a05b5c6e99e5d71f13ccc8f8cdeafcb39a3fa241a439d6af8885e6ce5b26bd25",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/SHARED/vfx_fireglow_gen_v1.dds",
+      "sha256": "013cd5ae4f980c63137068e7673f0f6d76fca3ea341bb700d11367a0dff9ac46",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_firelight_gen_v1.dds",
+      "sha256": "b52e37910e898575a4615823172c7873aa16e1ae77726c89cbcb37c66929302d",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_lightningbolt_gen_v1.dds",
+      "sha256": "03a656677a847a920fe2b69fa10a7086d39efb71d22d32abb99f32fd3fb01136",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/SHARED/vfx_liteglow_gen_v1.dds",
+      "sha256": "19fcbc6569b0656de92a265e43c5e5ab0abd02e8baf774cb79316f3f6a57253e",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/SHARED/vfx_poisoncloud03_gen_v1.dds",
+      "sha256": "db09442a1873ff768c64002fd9b7820b3cfd54623ea56fd7c10cd3b2a2423f71",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_poisonglow_gen_v1.dds",
+      "sha256": "2f7612937c01b0295cd168888aa71cb03a034c797dabb8235d03ad57bfaa0b9a",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/SHARED/vfx_restore_glow02_gen_v1.dds",
+      "sha256": "d91f88be51aa107849029271a2b6e09e20847f7f5a2ec1c85923be92dd257786",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_shield_glow_gen_v1.dds",
+      "sha256": "ecff59e72c262a2ecab53788c5e7cacf57b854efcce37a9afbebc17cb1f3dec2",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/WEAP/vfx_smokealpha00a_gen_v1.dds",
+      "sha256": "2c1f180e141db3fb95b2d92b8f08a34a6d6709f78e35a9d9536ba6b814ae6781",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/LIGH/tx_smokealpha00a_tribunal_gen_v1.dds",
+      "sha256": "fe504231a06bf591e0f23d7ec5b4c82b3f7be834263cf7aee32db154da3a08a9",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    },
+    {
+      "target": "textures/STAT/tx_wood_oldwood_tribunal_gen_v1.dds",
+      "sha256": "53bbe7a8be077db73ef54a73e46c72436f1470f888419127ce5d7b8b664007fa",
+      "size": [
+        512,
+        512
+      ],
+      "format": "DXT1",
+      "mipmap_count": 10,
+      "bytes": 174904
+    },
+    {
+      "target": "textures/SHARED/vfx_restore_glow02_tribunal_gen_v1.dds",
+      "sha256": "2e4a2ea8e4be3138b7646a84bcbfe26709bf96423c46f92a0ddfd0b603d9312a",
+      "size": [
+        256,
+        256
+      ],
+      "format": "DXT5",
+      "mipmap_count": 9,
+      "bytes": 87536
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+0 A.D. terrain assets
+====================
+
+Original project: 0 A.D.
+Original author / attribution party: Wildfire Games
+Author website: https://www.wildfiregames.com/
+Project website: https://play0ad.com/
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC-BY-SA-3.0)
+License link: https://creativecommons.org/licenses/by-sa/3.0/
+Legal code: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+Source licensing evidence:
+https://github.com/0ad/0ad/blob/master/binaries/data/mods/public/art/LICENSE.txt
+https://github.com/0ad/0ad/blob/master/LICENSE.txt
+
+Local source: types folder supplied by the project owner as directly from 0 A.D.
+Original asset directory: art/textures/terrain/types/
+Source release/version: not supplied.
+Local assets are already-cached DDS files and two terrain metadata files.
+Changes in this integration: directory relocation only. Existing bytes and file
+names were preserved; no new resizing, recompression or artistic changes made.
+The upstream package license is confirmed. Local hashes verify relocation
+integrity, not a per-file match against a particular upstream release.
+Individual original paths are listed in the workbook TEXTURE_PATHS sheet.
+
+Original art-package license notice (including texture exception):
+----------------------------------------------------------------
+The files in this directory are Copyright (C) 2009 Wildfire Games.
+
+These files are licensed under the Creative Commons Attribution-Share Alike 3.0
+(CC-by-sa) license, available at http://creativecommons.org/licenses/by-sa/3.0/
+
+Briefly, this means:
+
+* You may use, modify and distribute these files, for commercial and
+  non-commercial purposes.
+* If you distribute one of these files, you must include attribution (e.g.
+  in the credits screen of a game or a video, or in a text file accompanying
+  the files). The attribution must include:
+  * A link to http://creativecommons.org/licenses/by-sa/3.0/
+  * The name "Wildfire Games" as the original author
+  * A link to http://www.wildfiregames.com/
+
+* If you distribute one of these files, you must release it (and any
+  modifications you have made to it) under the CC-by-sa license.
+Some of the files in the "textures/" directory are derived from materials provided by CGTextures (http://www.cgtextures.com/). The original materials are the property of CGTextures or its contributors. Special permission has been granted by CGTextures to distribute these derived textures as CC-BY-SA. (This has no effect on the standard licensing of CGTextures materials, or on any other work derived from them.)
+All CGTextures materials have been altered from their original form. To access original super-high resolution CGTextures materials, please visit http://www.cgtextures.com/ .
