@@ -122,7 +122,7 @@ If you are a game developer evaluating an asset in the catalog, read `License`, 
 
 ## Quick Installation
 
-1. Once the Version 2 archive is published through GitHub Releases, download `OpenMW_Free_Asset_Library_v2.zip` and extract it into its own directory. A repository checkout contains catalogs and documentation, not the runtime package.
+1. Download `OpenMW_Free_Asset_Library_v2.zip` from the [Version 2 release](https://github.com/Kon-tiki-ship/openmw-free-asset-library/releases/tag/v2) and extract it into its own directory. A repository checkout contains catalogs and documentation, not the runtime package.
 2. Register that `Data Files` directory in the configuration used by OpenMW and OpenMW-CS. Keep `meshes`, `textures`, `icons`, and `sound` inside it, beside the content files. Adding the directory does not by itself activate an addon.
 3. For an independent-game project, select `OpenMW_Free_Asset_Library_v2_Base.omwgame` as the game file. Enable `OpenMW_Free_Asset_Library_v2_Assets.omwaddon` after it when the asset collection is needed.
 4. To reuse the asset addon in another project, add its data directory and enable the addon in that project's content list. Check record-ID conflicts and dependencies before integrating it.
@@ -142,7 +142,7 @@ For configuration details, see the official [OpenMW installation and activation 
 | `LICENSES.md`, `LICENSES/`, `ATTRIBUTION.md`, `provenance/` | License guide, standard legal texts, credits, and supporting notices. |
 | `VERSION.txt`, `CHECKSUMS.sha256` | Library version and file-integrity information. |
 
-In the GitHub repository, `releases/` contains only a README; the catalogs and notices are at the repository root. Runtime content will be distributed separately through GitHub Releases. In the downloadable archive, runtime content is directly under the extracted package's `Data Files` directory. Quarantine content, backups, private workbooks, and Git metadata are not part of the download.
+In the GitHub repository, `releases/` contains only a README; the catalogs and notices are at the repository root. Runtime content is distributed separately through GitHub Releases. In the downloadable archive, runtime content is directly under the extracted package's `Data Files` directory. Quarantine content, backups, private workbooks, and Git metadata are not part of the download.
 
 ## Version Requirements
 
